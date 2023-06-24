@@ -1,0 +1,218 @@
+/* Board */
+body {
+    margin: 0;
+    background-color: rgba(88, 89, 91, 1);
+}
+.container {
+    width: 428px;
+    height: 926px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.new-logo-png {
+    width: 358px;
+    height: 353px;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+/*-------------------------------------------------------------------------*/
+/*-- Input Header/Field --*/
+/*-------------------------------------------------------------------------*/
+.container-one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.input-header {
+    width: 339px;
+    height: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: .1em;
+}
+
+.input-field {
+    width: 354px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+/*-------------------------------------------------------------------------*/
+/*-- Button --*/
+/*-------------------------------------------------------------------------*/
+.container-two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.button {
+    width: 354px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(27, 66, 129, 1);
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+/*-------------------------------------------------------------------------*/
+/*-- Calculations/Labels --*/
+/*-------------------------------------------------------------------------*/
+.container-three {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.col-one {
+    width: 33%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    flex-wrap: nowrap;
+}
+
+.col-two {
+    width: 33%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex-wrap: nowrap;
+}
+
+.col-three {
+    width: 33%;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex-wrap: nowrap;
+}
+
+.display-box {
+    width: 116px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-right: .25em;
+}
+
+.box-top {
+    margin-top: .25em;
+}
+
+.box-center {
+    margin-top: .25em;
+}
+
+.box-bottom {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+.left-label {
+    width: 116px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.label-top {
+    width: 116px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 1em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.text-top {
+    margin-top: 1.50em;
+}
+
+.text-center {
+    margin-top: .25em;
+}
+
+.text-bottom {
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+/*-------------------------------------------------------------------------*/
+/*-- Footer --*/
+/*-------------------------------------------------------------------------*/
+.container-four {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    width: 367px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+}

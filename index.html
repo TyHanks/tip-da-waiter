@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TipDaWaiter</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <img class="new-logo-png" src="img/NewLogo.png" width="358" height="353">
+
+        <div class="container-one">
+            <p class="input-header">Enter full bill amount</p>
+            <input id="input-value" class="input-field centered" type="text" value="0">
+        </div>
+
+        <div class="container-two">
+            <button class="button" onclick="calculate()" type="button">TipDaWaiter</button>
+        </div>
+
+        <div class="container-three">
+            <div class="row-container">
+
+                <div class="col-one">
+                    <p class="label-top">Raating</p>
+                    <p class="left-label text-top">Kickass 30%</p>
+                    <p class="left-label text-center">Awesome 25%</p>
+                    <p class="left-label text-center">Average 20%</p>
+                    <p class="left-label text-center">Poor 15%</p>
+                    <p class="left-label text-bottom">Terrible 10%</p>
+                </div>
+
+                <div class="col-two">
+                    <p class="label-top centered">Tip Amount</p>
+                    <input id="tip-30" class="display-box box-top centered" type="text" value="$0.00" readonly>
+                    <input id="tip-25" class="display-box box-center centered" type="text"  value="$0.00" disabled>
+                    <input id="tip-20" class="display-box box-center centered" type="text" value="$0.00" disabled>
+                    <input id="tip-15" class="display-box box-center centered" type="text" value="$0.00" disabled>
+                    <input id="tip-10" class="display-box box-bottom centered" type="text" value="$0.00" disabled>
+                </div>
+
+                <div class="col-three">
+                    <p class="label-top centered">Total Bill</p>
+                    <input id="sum-30" class="display-box box-top centered" type="text" value="$0.00" readonly>
+                    <input id="sum-25" class="display-box box-center centered" type="text" value="$0.00" disabled>
+                    <input id="sum-20" class="display-box box-center centered" type="text" value="$0.00" disabled>
+                    <input id="sum-15" class="display-box box-center centered" type="text" value="$0.00" disabled>
+                    <input id="sum-10" class="display-box box-bottom centered" type="text" value="$0.00" disabled>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-four">
+            <p class="footer-text centered">© THanksDev 2023</p>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
